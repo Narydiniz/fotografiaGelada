@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 214, 235);
+}
+.btn-login{
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+}
+.btn-home{
+    text-align: center;
+}
