@@ -1,19 +1,77 @@
-* {
+/*Importando as fontes direto da pasta*/
+@font-face {
+    font-family: "Concert One";
+    src: local(Concert One), url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: local(Roboto), url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+  }
+/*Resete*/
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background-color: rgb(190, 214, 235);
+/*Header*/
+.header-box{
+    display: flex;
+    font-size: 24px;
+    width: 88%;
+    padding: 10px;
+    margin-left: 2%;
+}
+.logo-header{
+    font-family: "Concert One";
 }
 .btn-login{
-    background-color: black;
+    font-family:"Roboto";
+    background-color: #161616;
     color: white;
+    font-size: 22px;
+    border-radius: 4px;
+    margin-left: auto;
+    padding:5px;
+    width: 25% ; 
 }
-.title{
+.nav-box{
     text-align: center;
 }
 .btn-home{
-    text-align: center;
+    font-family:"Roboto";
+    font-size: 20px;
+}
+/*Footer*/   
+footer{
+    display: flex;
+    background-color: #161616;
+    padding: 40px;
+}
+
+.footer-logo{
+    font-family: "Concert One";
+    font-size: 22px;
+    color: white;
+    margin-right: auto;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    ,a
+}
+.icons{
+    list-style-type: none;
+    width:  22px;
+    margin: 0 10px;
+}
+.copy{
+    color: white;
+    font-size: 24px;
+    margin-left: auto;
 }
