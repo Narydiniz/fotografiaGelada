@@ -11,15 +11,39 @@
     <header>
         <div class="header-box">
             <h1 class="logo-header">FOTOGRAFIA GELADA</h1>
-            <button class="btn-login">Login</button>
+            <button class="btn-login" onclick="abrirModal()">Login</button>
         </div>
 
     </header>
     
     
     <!--MAIN-->
+
     <main>
 
+        <!-- Modal login -->
+        <div class="modal-login" id="modal-login">
+            <div class="modal">
+                <button onclick="fecharModal()" class="close" id="close">X</button>
+                <h1>Login</h1>
+                <form class="form-modal"
+                    <label class= "login-email">
+                        <p class="p-email">E-mail</p>
+                        <input class="input-email" type="email" class="cadastro" required>
+                    </label>
+        
+                    <label class="login-senha">
+                        <p class="p-senha">Senha</p>
+                        <input class="input-senha" type="password" minlength="8" required>
+                    </label>
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <!-- Grade de imagens  -->
         <nav class="nav-box">
              <hr>
              <p class="btn-home">HOME</p>
@@ -32,8 +56,10 @@
                 <img class="image-table" src="Imagens/Everest.jpg" alt="">
                 <div class="container-icons">
                     <div class="like-comment">
-                        <img class="like" src="Icones/coração.svg" alt="">
-                        <img class="comment" src="Icones/chat-branco.svg" alt="">
+                        <img src="Icones/coração.svg" alt="">
+                        <span></span>
+                        <img src="Icones/chat-branco.svg" alt="">
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -118,6 +144,6 @@
         </ul>
         <p class="copy">copyright - 2024</p>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
