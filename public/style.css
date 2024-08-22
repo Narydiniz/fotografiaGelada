@@ -46,7 +46,7 @@
     font-family:"Roboto";
     font-size: 20px;
 }
-
+/*Body Grade de imagens*/
 .grade-images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +109,23 @@
     object-fit: cover;
     border-radius: 5px;
 }
-
+/*Body like e comentarios*/
+.container-icons{
+    position: relative;
+}
+.like-comment{
+    position: absolute;
+    background-color: grey;
+    left: 10px;
+    bottom: 10px;
+    padding:5px;
+    width: auto;
+    height: auto;
+    
+}
+.like{
+  
+}
 /*Footer*/   
 footer{
     display: flex;
