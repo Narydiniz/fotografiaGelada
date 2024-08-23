@@ -66,23 +66,49 @@
 }
 .modal{
     width: 60%;
-    min-width: 450px;
-    min-height: 200px;
+    min-width: 600px;
+    min-height: 300px;
     background-color: white;
     padding: 40px;
-    border-radius: 10px;
+  
 }
-.close{
-    margin-left: auto;
-    display: flex;
-    padding: 10px;
-    border-radius: 50%;
-    border: 0;
-    background-color: red;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
+.title-modal{
+    text-align: center;
+    font-family:"Roboto";
 }
+.form-modal{
+    display: block;
+    padding: 5px 50px 5px 10px;
+}
+.input-email{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 110%;
+}
+.input-senha{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 110%;
+}
+.btn-cancelar{
+    font-family:"Roboto";
+    font-size: 26px;
+    border-radius: 4px;
+    width: 220px;
+    height: 45px;
+    margin-right: 34px;
+}
+.btn-entrar{
+    font-family:"Roboto";;
+    font-size: 26px;
+    border-radius: 4px;
+    width: 220px;
+    height: 45px;
+    margin-right: 36px;
+}
+
 @keyframes abrirmodal{
     from{
         opacity: 0;

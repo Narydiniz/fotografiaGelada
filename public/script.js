@@ -4,7 +4,7 @@ function abrirModal(){
   modal.classList.add('abrir')
 
   modal.addEventListener('click', (e) => {
-    if(e.target.id == 'close' || e.target.id == 'modal-login'){
+    if(e.target.id == 'modal-login'){
         modal.classList.remove('abrir')
     }
   })
