@@ -55,7 +55,7 @@
     font-weight: bolder;
     color: #ffff;
     cursor: pointer;
-    z-index: 100;
+    z-index: 777;
 }
 .container .popup-image img {
     position: absolute;

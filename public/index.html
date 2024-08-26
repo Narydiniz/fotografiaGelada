@@ -40,62 +40,42 @@
                             <input class="input-senha" type="password" minlength="8" required>
                         </label>
                         <div>
-                            <button class="btn-cancelar">Cancelar</button>
-                            <button class="btn-entrar">Entrar</button>
+                            <button onclick="cancelarModal()" class="btn-modal">Cancelar</button>
+                            <button onclick="entarModal()" class="btn-modal">Entrar</button>
                         </div>
                     </form>
-                    </div>
+                    =</div>
                    
                 </div>
         </div>
-
-            <!-- Modal login -->
-        <div class="modal-login" id="modal-login">
-            <div class="modal">
-                <h1 class="title-modal">Login</h1>
-                <hr>
+        
+    <!-- Modal imagem  -->  
+        <div class="imagem-click">
+            <div class="popup-header">
+                <h1 class="popup-title"> Everest</h1>
+                <img class="popup-image" src="Imagens/Everest.jpg" alt="">
                 <div>
-                     <form class="form-modal">
-                    <label class = "login-email">
-                        <p class="p-login">Usuário</p>
-                        <input class="input-email" type="user" required>
-                    </label>
-                    <label class="login-senha">
-                        <p class="p-login">Senha</p>
-                        <input class="input-senha" type="password" minlength="8" required>
-                    </label>
+                    <img src="Icones/coraçãoVermelho.svg" alt="">
+                    <span>2 curtidas</span>
+                    
                     <div>
-                        <button class="btn-cancelar">Cancelar</button>
-                        <button class="btn-entrar">Entrar</button>
+                        <img src="Icones/chat-preto.svg" alt="">
+                        <span>10 Comentarios</span>
+                        <hr>
                     </div>
-                </form>
+    
                 </div>
-               
+                <div>
+                    <img src="Icones/chat-preto.svg" alt="">
+                    <input type="text" placeholder="Adicionar comentario...">
+                    <img src="Icones/send.svg" alt="">
+                </div>
             </div>
+            
+  
         </div>
-        <!-- Modal imagem  -->  
-         <div class="modal-image" id="modal-imagem">
-            <div class="popup">
-                <h1 class="popup-image">Everest</h1>
-                <button class="close">X</button>
-                <div>
-                    <img class="Everest" src="Imagens/Everest.jpg" alt="Everest">
-                </div>
-                <div>
-                    <img class="like-red" src="Icones/coraçãoVermelho.svg" alt="">
-                    <hr>
-                </div>
-                <div>
-                    <img class="comment-black" src="Icones/chat-preto.svg" alt="">
-                    <hr>
-                </div>
 
-            </div>
-
-         </div>
-
-
-        <!-- Grade de imagens  -->
+    <!-- Grade de imagens  -->
         <nav class="nav-box">
              <hr>
              <p class="btn-home">HOME</p>
