@@ -1,4 +1,3 @@
-
 function abrirModal(){
   const modal =   document.getElementById('modal-login')
   modal.classList.add('abrir')
@@ -33,14 +32,19 @@ function entarModal(){
 }
 
 
+function openmodal(){
+  const popup =   document.getElementById('imagem-click')
+  popup.classList.add('open')
 
-/*function openWindow(){
-  windowInformation.classList.add('show')
-  body.classList.add('show')
-};
-function closeWindow(){
-  windowInformation.classList.remove('show')
-  body.classList.remove('show')
-}*/
+  popup.addEventListener('click', (e) => {
+    if(e.target.id == 'imagem-click'){
+        modal.classList.remove('open')
+    }
+  })
+}
+  
+
+
+
 
 
