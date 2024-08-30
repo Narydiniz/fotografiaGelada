@@ -1,3 +1,17 @@
+//Modal Imagem
+
+const modal2 = document.querySelector('.imagem-click')
+
+function openModal2(){
+  modal2.classList.add('show')
+}
+
+function closeModal2(){
+  window.alert("Faça login para curtir e fazer comentarios")
+  modal2.classList.remove('show')
+}
+
+//Modal Login 
 function abrirModal(){
   const modal =   document.getElementById('modal-login')
   modal.classList.add('abrir')
@@ -31,17 +45,6 @@ function entarModal(){
   })
 }
 
-
-function openmodal(){
-  const popup =   document.getElementById('imagem-click')
-  popup.classList.add('open')
-
-  popup.addEventListener('click', (e) => {
-    if(e.target.id == 'imagem-click'){
-        modal.classList.remove('open')
-    }
-  })
-}
   
 
 

@@ -50,18 +50,19 @@
         </div>
         
     <!-- Modal imagem  -->  
-        <div class="imagem-click">
+        <div id="imagem-click" class="imagem-click">
             <div class="img-grade">
-                <div class="popup-header">
+                <div  class="popup-header">
                     <h1 class="popup-title"> Everest</h1>
-                    <img onclick="openmodal()" class="popup-image" src="Imagens/Everest.jpg" alt="">
+                    <img class="popup-image" src="Imagens/Everest.jpg" alt="">
+                    <button class="btn-close">X</button>
                 <div class="likes-comments">
                     <img src="Icones/coraçãoVermelho.svg" alt="">
                         <span class="span-modal">2 curtidas</span>
-                    <img class="modal-chat" src="Icones/chat-preto.svg" alt="">
+                    <img onclick="closeModal2()" class="modal-chat" src="Icones/chat-preto.svg" alt="">
                         <span class="span-modal">10 Comentarios</span>
                     <hr>
-                        <img class="add-comment" src="Icones/chat-preto.svg" alt="">
+                        <img onclick="closeModal2()" class="add-comment" src="Icones/chat-preto.svg" alt="">
                     <input class="send-comment" type="text" placeholder="Adicionar comentario...">
                         <img class="send-btn" src="Icones/send.svg" alt="">
                 </div>
@@ -82,8 +83,8 @@
 
         <div class="grade-images">
 
-            <div class="image1">
-                <img class="image-table" src="Imagens/Everest.jpg" alt="">
+            <div  onclick="openModal2()" class="image1">
+                <img   class="image-table" src="Imagens/Everest.jpg" alt="">
                 <div class="container-icons">
                     <div class="like-comment">
                         <img src="Icones/coração.svg" alt="">
