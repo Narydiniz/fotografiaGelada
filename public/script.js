@@ -5,9 +5,15 @@ const modal2 = document.querySelector('.imagem-click')
 function openModal2(){
   modal2.classList.add('show')
 }
-
+function commentModal2(){
+  window.alert("Faça login para enviar seus comentarios")
+  modal2.classList.remove('show')
+}
+function likeModal2(){
+  window.alert("Faça login para curtir essa publicação")
+  modal2.classList.remove('show')
+}
 function closeModal2(){
-  window.alert("Faça login para curtir e fazer comentarios")
   modal2.classList.remove('show')
 }
 
